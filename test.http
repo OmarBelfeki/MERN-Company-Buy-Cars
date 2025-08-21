@@ -1,0 +1,46 @@
+### GET request to example server
+GET https://examples.http-client.intellij.net/get
+    ?generated-in=WebStorm
+
+###
+
+### add testeur
+POST http://localhost:5000/api/testeur/
+Content-Type: application/json
+
+{
+    "idPermis": "58/98765",
+    "nom": "krini",
+    "prenom": "Fethi",
+    "genre": "M"
+}
+
+
+### add voiture
+POST http://localhost:5000/api/modelVoiture/
+Content-Type: application/json
+
+{
+    "idModele": "38",
+    "libelle": "WALLYS 216"
+}
+
+
+
+### add evalution
+POST http://localhost:5000/api/elevation
+Content-Type: application/json
+
+{
+    "idPermis": "58/98765",
+    "idModele": "38",
+    "dateTest": "2025-10-26T10:00:00Z",
+    "securite": 2,
+    "conduite": 3,
+    "confort": 4
+}
+
+
+
+### GET bilan
+GET http://localhost:5000/api/bilan/bilan

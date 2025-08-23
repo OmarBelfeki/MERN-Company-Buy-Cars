@@ -1,4 +1,4 @@
-# MERN-Company-Buy-Cars-
+# MERN-Company-Buy-Cars
 
 Une société de vente de voitures offre à ses clients la possibilité de tester et évaluer les<br>
 nouveaux modèles qu’elle dispose. L’évaluation consiste à attribuer trois notes en<br>
